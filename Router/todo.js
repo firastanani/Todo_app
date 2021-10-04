@@ -79,4 +79,14 @@ router.get('/api/getTodo/:idTodo/:idUser',auth ,async (req, res) => {
     }
 })
 
+// Get all todo for specific user
+router.get('/api/getAllTodo/:idUser',auth, async (req, res) => {
+    try {
+          let user = await User.findOne({ _id: req.params.idUser }).populate('Todolist');
+        res.send(user.Todolist)
+    } catch (e) {
+        res.status(500).send()
+    }
+})
+
 module.exports = router
