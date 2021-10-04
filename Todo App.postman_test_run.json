@@ -1,0 +1,128 @@
+{
+	"id": "098c9b44-7860-41f8-abfa-72e197030a3c",
+	"name": "Todo App",
+	"timestamp": "2021-10-04T09:27:04.192Z",
+	"collection_id": "ab79c272-c558-436f-afcf-27253323db24",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "e538ab56-a35b-44ed-8792-36fd9e31cdb4",
+			"name": "getAllTodo",
+			"url": "http://localhost:3000/Todo/api/getAllTodo/615a664ece7f792362c3c365",
+			"time": 42,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				42
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "09d21878-0924-4ff4-8849-b18020a98f4b",
+			"name": "getTodo",
+			"url": "http://localhost:3000/Todo/api/getTodo/615a664ece7f792362c3c444/615a664ece7f792362c3c364",
+			"time": 11,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				11
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "588b7908-4237-4c6c-9c2a-2900d00c666a",
+			"name": "addTodo",
+			"url": "http://localhost:3000/Todo/api/addTodo/615a664ece7f792362c3c363",
+			"time": 35,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				35
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "3443922d-bd50-4d6c-955e-46dd943f5935",
+			"name": "updateTodo",
+			"url": "http://localhost:3000/Todo/api/updateTodo/615a664ece7f792362c3c555/615a664ece7f792362c3c363",
+			"time": 13,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				13
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "4bbfa49e-0406-476a-999e-dde2763596ed",
+			"name": "deleteTodo",
+			"url": "http://localhost:3000/Todo/api/deleteTodo/615a664ece7f792362c3c333/615a664ece7f792362c3c365",
+			"time": 12,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				12
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 113,
+	"collection": {
+		"requests": [
+			{
+				"id": "e538ab56-a35b-44ed-8792-36fd9e31cdb4",
+				"method": "GET"
+			},
+			{
+				"id": "09d21878-0924-4ff4-8849-b18020a98f4b",
+				"method": "GET"
+			},
+			{
+				"id": "588b7908-4237-4c6c-9c2a-2900d00c666a",
+				"method": "POST"
+			},
+			{
+				"id": "3443922d-bd50-4d6c-955e-46dd943f5935",
+				"method": "PATCH"
+			},
+			{
+				"id": "4bbfa49e-0406-476a-999e-dde2763596ed",
+				"method": "DELETE"
+			}
+		]
+	}
+}

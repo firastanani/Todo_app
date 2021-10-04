@@ -1,0 +1,191 @@
+{
+	"info": {
+		"_postman_id": "ab79c272-c558-436f-afcf-27253323db24",
+		"name": "Todo App",
+		"description": "this collection for test todo app",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get",
+			"item": [
+				{
+					"name": "getAllTodo",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/Todo/api/getAllTodo/615a664ece7f792362c3c365",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"Todo",
+								"api",
+								"getAllTodo",
+								"615a664ece7f792362c3c365"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getTodo",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/Todo/api/getTodo/615a664ece7f792362c3c444/615a664ece7f792362c3c364",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"Todo",
+								"api",
+								"getTodo",
+								"615a664ece7f792362c3c444",
+								"615a664ece7f792362c3c364"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Post",
+			"item": [
+				{
+					"name": "addTodo",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"description\" : \"eat my food\",\r\n    \"completed\": \"true\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/Todo/api/addTodo/615a664ece7f792362c3c363",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"Todo",
+								"api",
+								"addTodo",
+								"615a664ece7f792362c3c363"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Putch",
+			"item": [
+				{
+					"name": "updateTodo",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"description\" : \"eat my food2\",\r\n    \"completed\": \"false\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/Todo/api/updateTodo/615a664ece7f792362c3c555/615a664ece7f792362c3c363",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"Todo",
+								"api",
+								"updateTodo",
+								"615a664ece7f792362c3c555",
+								"615a664ece7f792362c3c363"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Delete",
+			"item": [
+				{
+					"name": "deleteTodo",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/Todo/api/deleteTodo/615a664ece7f792362c3c333/615a664ece7f792362c3c365",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"Todo",
+								"api",
+								"deleteTodo",
+								"615a664ece7f792362c3c333",
+								"615a664ece7f792362c3c365"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MTVhNjY0ZWNlN2Y3OTIzNjJjM2MzNjMiLCJpYXQiOjE2MzMzMzc4MjV9.W0X2c4fEtP10e6ciMxVm_mRomJiNRbmJfoeh0atOWXk",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
