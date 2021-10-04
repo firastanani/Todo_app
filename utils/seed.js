@@ -32,7 +32,7 @@ var dataForUser = [
         _id: "615a664ece7f792362c3c363",
         name: "firas tanani",
         email: "user1@gmail.com",
-        password: "firas123456",
+        password: "$2a$08$Vdloyl4.zaOM.aDGOBB0a.I9hpMHvBo1c0I.jLX65J9OqLBzt2epa",//the passwrod is firas123456
         age: 23,
         tokens:[
           "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MTVhNjY0ZWNlN2Y3OTIzNjJjM2MzNjMiLCJpYXQiOjE2MzMzMzc4MjV9.W0X2c4fEtP10e6ciMxVm_mRomJiNRbmJfoeh0atOWXk",
@@ -43,7 +43,7 @@ var dataForUser = [
         _id: "615a664ece7f792362c3c364",
         name: "waseem",
         email: "user2@gmail.com",
-        password: "firas123456",
+        password: "$2a$08$Vdloyl4.zaOM.aDGOBB0a.I9hpMHvBo1c0I.jLX65J9OqLBzt2epa",//the passwrod is firas123456
         age: 11,
 
       },
@@ -51,7 +51,7 @@ var dataForUser = [
         _id: "615a664ece7f792362c3c365",
         name: "Adnan",
         email: "user3@gmail.com",
-        password: "firas123456",
+        password: "$2a$08$Vdloyl4.zaOM.aDGOBB0a.I9hpMHvBo1c0I.jLX65J9OqLBzt2epa",//the passwrod is firas123456
         age: 22,
       },
     ],
